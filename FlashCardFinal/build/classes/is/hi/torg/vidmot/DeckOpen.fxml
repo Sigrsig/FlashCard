@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" fx:id="veljaDeck" prefHeight="400.0" prefWidth="400.0" stylesheets="@DeckOpenStyles.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="is.hi.torg.vidmot.DeckOpenController">
+    <children>
+        <Button fx:id="veljaButton" layoutX="27.0" layoutY="328.0" onAction="#veljaButtonHandler" prefHeight="56.0" prefWidth="119.0" stylesheets="@DeckOpenStyles.css" text="Choose Deck" />
+      <ListView fx:id="deckList" layoutX="14.0" layoutY="37.0" prefHeight="275.0" prefWidth="307.0" />
+      <fx:include fx:id="valmynd" source="MenuList.fxml" />
+      <Button fx:id="EydaButton" layoutX="187.0" layoutY="328.0" onAction="#EydaButtonHandler" prefHeight="56.0" prefWidth="119.0" stylesheets="@DeckOpenStyles.css" text="Delete Deck" />  
+    </children>
+</AnchorPane>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" fx:id="nDialog" prefHeight="400.0" prefWidth="400.0" stylesheets="@DeckOpenStyles.css" visible="false" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" >
+   <children>
+      <Label fx:id="virktSpil" alignment="CENTER" layoutX="45.0" layoutY="85.0" onMouseClicked="#spilFlip" prefHeight="210.0" prefWidth="310.0" style="-fx-background-color: rgb(255, 255, 255);" textAlignment="CENTER" textOverrun="WORD_ELLIPSIS" wrapText="true">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Label>
+      <Button fx:id="nextButton" layoutX="214.0" layoutY="311.0" mnemonicParsing="false" onAction="#nextButtonHandler" prefHeight="64.0" prefWidth="141.0" stylesheets="@DeckOpenStyles.css" text="Next">
+         <font>
+            <Font size="13.0" />
+         </font></Button>
+      <Label fx:id="deckName" alignment="CENTER" layoutX="45.0" layoutY="40.0" prefHeight="24.0" prefWidth="310.0" style="-fx-font-weight: bold;" stylesheets="@DeckOpenStyles.css">
+         <font>
+            <Font size="14.0" />
+         </font></Label>
+      <Button fx:id="backButton1" layoutX="45.0" layoutY="311.0" mnemonicParsing="false" onAction="#backButtonHandler" prefHeight="64.0" prefWidth="141.0" stylesheets="@DeckOpenStyles.css" text="Back">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Button>
+       
+   </children>
+   
+</AnchorPane>

@@ -1,0 +1,17 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 15-Apr-2018, 18:56:59
+    Author     : Sigríður Ösp sos42@hi.is
+*/
+AnchorPane{-fx-background-color:  #e6f2ff;}
+
+.button{
+    -fx-background-color: #b3d9ff;
+    -fx-font-weight: bold;
+}
+
+.button:hover{-fx-background-color: #99bbff;}
