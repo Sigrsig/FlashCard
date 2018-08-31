@@ -1,2 +1,2 @@
 # FlashCard
-A three sided flash card program w/ Java
+A three sided flash card program made in Netbeans
